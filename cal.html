@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>calculator</title>
+        <link rel="stylesheet" type="text/css" href="cal.css">
+        <script type="text/javascript" src="cal.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="output">
+                <p class="text_out" id="output">0</p>
+                <p class="text_in" id="input">0</p>
+            </div>
+            <div class="keyboard">
+                <div class="keyboard_row">     <!-- 第一排 -->
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="percent">%</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="evolution">√</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="square">x2</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="fraction">1/x</button>
+                    </div>
+                </div>
+                <div class="keyboard_row">   <!-- 第二排 -->
+                    <div class="keyboard_key">
+                        <button type="button" onclick="CEfun()" value="CE">CE</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" onclick="Cfun()" value="C">C</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" onclick="delfun()" value="del">del</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="division">/</button>
+                    </div>
+                </div>
+                <div class="keyboard_row">   <!-- 第三排 -->
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="7">7</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="8">8</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="9">9</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="multiplication">X</button>
+                    </div>
+                </div>
+                <div class="keyboard_row">   <!-- 第四排 -->
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="4">4</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="5">5</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="6">6</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="Subtraction">-</button>
+                    </div>
+                </div>
+                <div class="keyboard_row">   <!-- 第五排 -->
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="1">1</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="2">2</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="3">3</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="sum">+</button>
+                    </div>
+                </div>
+                <div class="keyboard_row">   <!-- 第六排 -->
+                    <div class="keyboard_key">
+                        <button type="button" onclick="pos_nagfun()" value="pos_nag">+-</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="num" value="0">0</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="point">.</button>
+                    </div>
+                    <div class="keyboard_key">
+                        <button type="button" name="symbol" value="equal">=</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
